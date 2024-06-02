@@ -19,7 +19,7 @@ export default function DownloadText({ Dlimg }) {
 
   return (
     <div
-      className="flex flex-col text-white items-center w-full h-[500px] pt-[125px] pb-[125px] bg-cover relative"
+      className="flex flex-col text-white items-center w-full h-[550px] pt-[125px] pb-[125px] bg-cover relative"
       style={backgroundImageStyle}
     >
       <div className="relative z-10 flex flex-col items-center w-full h-full">
