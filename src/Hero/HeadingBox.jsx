@@ -2,7 +2,7 @@ import Heading from "./Heading";
 
 export default function HeadingBox() {
   return (
-    <div className="flex justify-between w-5/12 mr-[2.5%]">
+    <div className=" justify-between w-5/12 mr-[2.5%] hidden lg:flex">
       <Heading text="Home" />
       <Heading text="Product" />
       <Heading text="Faq" />

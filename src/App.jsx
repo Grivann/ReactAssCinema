@@ -19,9 +19,9 @@ function App() {
       <Hero heroimg={heroimg}></Hero>
 
       <div className='flex flex-col items-center mt-[-225px] z-100'>
-        <img src={phones} alt="" className='w-[850px] h-[640px] z-100 '/> 
+        <img src={phones} alt="" className='md:w-[850px] md:h-[640px] w-[595px] h-[448px] z-100 '/> 
         <hr className='w-[884px] mt-[75px]'/>
-        <h1 className='text-[60px] mt-[33px] mb-[50px]'>How the app works?</h1>
+        <h1 className='w-[70%] text-[26px] sm:text-[33px] md:text-[42px] lg:text-[50px]  lg:leading-[80px] text-center poppins-bold mt-[33px] mb-[50px]'>How the app works?</h1>
       </div>
 
       <Box 

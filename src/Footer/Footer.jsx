@@ -5,7 +5,7 @@ import Logo from "./Logo"
 
 export default function Footer(){
     return(
-        <div className="flex justify-evenly items-center">
+        <div className="flex lg:flex-row flex-col lg:justify-evenly items-center justify-center">
             <Logo></Logo>
             <Links></Links>
             <Copy></Copy>
