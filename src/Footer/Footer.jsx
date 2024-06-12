@@ -3,10 +3,10 @@ import Copy from "./Copy"
 import Logo from "./Logo"
 
 
-export default function Footer(){
+export default function Footer({logoimg}){
     return(
         <div className="flex lg:flex-row flex-col lg:justify-evenly items-center justify-center">
-            <Logo></Logo>
+            <Logo logoimg={logoimg}></Logo>
             <Links></Links>
             <Copy></Copy>
         </div>

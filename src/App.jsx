@@ -10,13 +10,14 @@ import phone3 from './assets/phone3.png';
 import phones from './assets/phones.png';
 import heroimg from './assets/Heroimg.png';
 import Dlimg from './assets/Dlimg.png';
+import logoimg from './assets/logo.png';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <Hero heroimg={heroimg}></Hero>
+      <Hero heroimg={heroimg} logoimg={logoimg}></Hero>
 
       <div className='flex flex-col items-center mt-[-225px] z-100'>
         <img src={phones} alt="" className='md:w-[850px] md:h-[640px] w-[595px] h-[448px] z-100 '/> 
@@ -48,7 +49,7 @@ function App() {
         sauce={phone3}
       />
       <Download Dlimg={Dlimg}></Download>
-      <Footer></Footer>
+      <Footer logoimg={logoimg}></Footer>
     </div>
   );
 }
